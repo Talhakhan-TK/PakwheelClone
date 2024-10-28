@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default function Navbar (){
     return(
              <div>
@@ -13,7 +14,7 @@ export default function Navbar (){
            <nav className="flex justify-between items-center bg-blue-900 text-white w-full h-18">
             <img src="/images/logo.png" className="h-14 mx-14 "/>
                 <div className="flex">
-                    <a href="/"> <p className="p-6"> Home</p> </a>
+                    <Link href="/"><a> <p className="p-6"> Home</p> </a></Link>   
                     <p className="p-6">Used Cars</p>
                     <p className="p-6">New Cars </p>
                     <p className="p-6">Bikes </p>
